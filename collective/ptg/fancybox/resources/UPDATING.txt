@@ -1,0 +1,10 @@
+Update notes to newer version of Fancybox library
+-------------------------------------------------
+OLD VERSION was using dtml stuff to replace url statement. Now css registry
+support applyPrefix option, so no need to update css file
+
+Note: fancybox 2.0 need jquery >= 1.6
+
+jquery.fancybox.pack.js - no changes
+
+jquery.easing.js - not used nor registered in portal_javascript now
