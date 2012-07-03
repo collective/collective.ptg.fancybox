@@ -25,6 +25,7 @@ setup(name='collective.ptg.fancybox',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'collective.plonetruegallery'
       ],
       entry_points="""
       # -*- Entry points: -*-
