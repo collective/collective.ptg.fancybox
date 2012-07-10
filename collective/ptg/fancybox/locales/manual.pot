@@ -14,11 +14,3 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.plonetruegallery\n"
-
-
-#. Default: "Gallery View"
-#: ./browser/views/configure.zcml
-msgid "Gallery View"
-msgstr ""
-
-
