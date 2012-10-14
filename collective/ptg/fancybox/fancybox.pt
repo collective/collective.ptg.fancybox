@@ -1,10 +1,17 @@
 <div class="plonetruegallery">
-  <p class="plonetruegallery"> 
-    <a tal:repeat="image view/batch"  
-       class="fancyzoom-gallery" rel="group" 
-       tal:attributes="title string:${image/title}-${image/description};
-                       href image/image_url;">
-      <img tal:attributes="src image/thumb_url; alt image/description" />
-    </a>
+  <p class="plonetruegallery">
+    <span tal:repeat="image view/batch">
+      <tal:copydesc
+        tal:define="copyright image/copyright|string:;
+                    desc image/description|string:;
+                    copydescr python: '&nbsp;&ndash;&nbsp;' + desc if desc else desc;
+                    copydescr python: copydescr + '&nbsp;&ndash;&nbsp;&copy;' + copyright if copyright else copydescr;">
+        <a class="fancyzoom-gallery" rel="group"
+          tal:attributes="title string:${image/title}${copydescr};
+                           href image/image_url;">
+           <img tal:attributes="src image/thumb_url; alt image/description" />
+        </a>
+      </tal:copydesc>
+    </span>
   </p>
 </div>
