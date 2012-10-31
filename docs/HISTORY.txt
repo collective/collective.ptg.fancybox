@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.1
+-----
+
+- add copyright information [eehmke]
+
 1.0.3
 -----
 
