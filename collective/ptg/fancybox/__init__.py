@@ -22,11 +22,17 @@ class FancyBoxDisplayType(BatchingDisplayType):
     def javascript(self):
         return u"""
 <script type="text/javascript"
-    src="%(base_url)s/jquery.easing.js"></script>
+    src="%(base_url)s/jquery.mousewheel-3.0.6.pack.js"></script>
 <script type="text/javascript"
-    src="%(base_url)s/jquery.mousewheel.js"></script>
+    src="%(base_url)s/jquery.fancybox.pack.js"></script>
 <script type="text/javascript"
-    src="%(base_url)s/jquery.fancybox.js"></script>
+    src="%(base_url)s/helpers/jquery.fancybox-buttons.js"></script>
+<script type="text/javascript"
+    src="%(base_url)s/helpers/jquery.fancybox-media.js"></script>
+<script type="text/javascript"
+    src="%(base_url)s/helpers/jquery.fancybox-thumbs.js"></script>
+
+
   <script type="text/javascript">
     var auto_start = %(start_automatically)s;
     var start_image_index = %(start_index_index)i;
@@ -56,7 +62,12 @@ class FancyBoxDisplayType(BatchingDisplayType):
     def css(self):
         return u"""
 <link rel="stylesheet" type="text/css"
-    href="%(staticFiles)s/jquery.fancybox.css" media="screen" />
+    href="%(staticFiles)s/jquery.fancybox.css" />
+<link rel="stylesheet" type="text/css"
+    href="%(staticFiles)s/helpers/jquery.fancybox-buttons.css" />
+<link rel="stylesheet" type="text/css"
+    href="%(staticFiles)s/helpers/jquery.fancybox-thumbs.css" />
+
     <style>
     #content  a.fancyzoom-gallery {
         border-bottom: 0 none;
