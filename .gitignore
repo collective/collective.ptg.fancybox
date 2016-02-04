@@ -1,0 +1,5 @@
+
+*.pyc
+
+collective.ptg.fancybox.egg-info/*    
+

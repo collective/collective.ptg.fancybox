@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.2
+-----
+
+- updated javascripts so it works with Plone 5
+- tested only with Plone 5
+
 1.1
 -----
 
