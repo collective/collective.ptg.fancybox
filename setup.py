@@ -12,6 +12,10 @@ setup(name='collective.ptg.fancybox',
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Framework :: Plone",
+        "Framework :: Plone :: 4.0",
+        "Framework :: Plone :: 4.3",
+        "Framework :: Plone :: 5.0",
+        "Programming Language :: Python",
         "Programming Language :: Python",
         ],
       keywords='plone plonetruegallery addon fancybox',
