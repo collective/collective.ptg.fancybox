@@ -21,3 +21,5 @@ collective.ptg.fancybox.egg-info/top_level.txt
 collective.ptg.fancybox.egg-info/SOURCES.txt
 
 collective.ptg.fancybox.egg-info/namespace_packages.txt
+
+*.mo
