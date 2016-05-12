@@ -82,7 +82,7 @@ class FancyBoxDisplayType(BatchingDisplayType):
     def css(self):
         return u"""
 <link rel="stylesheet" type="text/css"
-    href="%(fancybox_url)s.css"> media="screen" />
+    href="%(fancybox_url)s.css" media="screen" />
     <style>
     #content  a.fancyzoom-gallery {
         border-bottom: 0 none;
