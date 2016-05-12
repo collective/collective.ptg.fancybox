@@ -1,11 +1,17 @@
 Changelog
 =========
 
+1.3
+-----
+
+- Updated CSS
+- added support for v3 beta (because of its swipe functions)[espenmn]
+
 1.2
 -----
 
-- updated javascripts so it works with Plone 5
-- tested only with Plone 5
+- updated javascripts so it works with Plone 5 [espenmn]
+- tested only with Plone 5 [espenmn]
 
 1.1
 -----
