@@ -40,7 +40,7 @@ class FancyBoxDisplayType(BatchingDisplayType):
 
     def fancybox_url(self):
         if self.settings.beta:
-            return '++resource++ptg.fancybox/jquery.fancybox3'
+            return '++resource++ptg.fancybox/jquery.fancyboxb'
         return  '++resource++ptg.fancybox/jquery.fancybox'
 
     def javascript(self):
@@ -58,7 +58,6 @@ class FancyBoxDisplayType(BatchingDisplayType):
             $("a.fancyzoom-gallery").fancybox({
                 'type': 'image',
                 'transitionIn': 'elastic',
-                'caption': %(caption)s,
                 'transitionOut': 'elastic'});
             var images = $('a.fancyzoom-gallery');
             if(images.length <= start_image_index){
@@ -76,9 +75,8 @@ class FancyBoxDisplayType(BatchingDisplayType):
             'start_index_index': self.start_image_index,
             'staticFiles':  self.staticFiles,
             'caption' : self.settings.caption,
-            'beta' : self.settings.beta,
-            'fancybox_url' : self.fancybox_url(),
             'base_url': self.typeStaticFiles,
+            'fancybox_url' : self.fancybox_url(),
         }
 
     def css(self):
@@ -91,7 +89,7 @@ class FancyBoxDisplayType(BatchingDisplayType):
     }
     </style>
 """ % {
-        'staticFiles': self.typeStaticFiles,
+        'staticFiles': self.staticFiles,
         'fancybox_url' : self.fancybox_url(),
         }
 FancyBoxSettings = createSettingsFactory(FancyBoxDisplayType.schema)

@@ -2330,7 +2330,7 @@
 		$("<style type='text/css'>.fancybox-margin{margin-right:" + F.lockMargin + "px;}</style>").appendTo("head");
 
 		// Auto start
-		if ($("script[src*='jquery.fancybox.js']").attr('src').match(/autorun/) ){
+		if ($("script[src*='jquery.fancyboxb.js']").attr('src').match(/autorun/) ){
 			$("a[href$='.jpg'],a[href$='.png'],a[href$='.gif'],.fancybox").attr('data-fancybox-group', 'gallery').fancybox();
 		}
 	});

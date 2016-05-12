@@ -1,6 +1,6 @@
 <div class="plonetruegallery">
   <p class="plonetruegallery">
-    <span tal:repeat="image view/batch">
+    <span tal:repeat="image view/batch" class="imagelist">
       <tal:copydesc
         tal:define="copyright image/copyright|string:;
                     desc image/description|string:;
