@@ -8,9 +8,9 @@
                     desc image/description|string:;
                     copydescr python: '&nbsp;&ndash;&nbsp;' + desc if desc else desc;
                     copydescr python: copydescr + '&nbsp;&ndash;&nbsp;&copy;' + copyright if copyright else copydescr;">
-        <a class="fancyzoom-gallery fancybox-thumb" rel="group"
-          tal:attributes="title string:${image/title}${copydescr};
-                           href href_url;">
+         <a class="fancyzoom-gallery fancybox-thumb" rel="group"
+          		tal:attributes="title string:${image/title}${copydescr};
+                href href_url;">
            <img tal:attributes="src image/thumb_url; alt image/description" />
         </a>
       </tal:copydesc>
