@@ -61,7 +61,6 @@ class FancyBoxDisplayType(BatchingDisplayType):
                 self.settings.start_automatically or self.settings.timed),
             'start_index_index': self.start_image_index,
             'staticFiles':  self.staticFiles,
-            'caption' : self.settings.caption,
             'base_url': self.typeStaticFiles,
             'fancybox_url' : self.fancybox_url(),
         }
