@@ -16,22 +16,9 @@ class IFancyBoxDisplaySettings(IBaseSettings):
         title=_(u"label_beta",
             default=u"Use version 3 beta instead of version 2 stable"),
         default=False)
-    caption = schema.Choice(
-        title = _(u"label_caption",
-            default=u"Where to show caption"),
-        vocabulary=SimpleVocabulary([
-            SimpleTerm("float", "float",
-                _(u"float", default=u"float")),
-            SimpleTerm("outside", "outside",
-                _(u"outside", default=u"outside")),
-            SimpleTerm("inside", "inside",
-                _(u"inside", default=u"inside")),
-            SimpleTerm("over", "over",
-                _(u"over", default=u"over"))
-        ]))
+
 
 class FancyBoxDisplayType(BatchingDisplayType):
-
     name = u"fancybox"
     schema = IFancyBoxDisplaySettings
     description = _(u"label_fancybox_display_type",
