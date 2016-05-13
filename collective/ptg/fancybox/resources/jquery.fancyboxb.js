@@ -104,7 +104,7 @@
 			expander  : !isTouch,
 
 			caption : {
-				type     : 'outside'	// 'float', 'inside', 'outside' or 'over',
+				type     : 'float'	// 'float', 'inside', 'outside' or 'over',
 			},
 
 			overlay : {
