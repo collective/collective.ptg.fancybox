@@ -1,5 +1,3 @@
-/* @override http://www.alexanderstub.no/portfolio/bilder/++resource++ptg.fancybox/jquery.fancyboxb.css */
-
 /* @override 
 	http://www.alexanderstub.no/portfolio/++resource++ptg.fancybox/jquery.fancyboxb.css
 	http://localhost:8080/Plone/++resource++ptg.fancybox/jquery.fancyboxb.css
@@ -36,42 +34,26 @@ a.fancybox-nav span,
 }
 
 @media (max-width: 800px) {
-	div.fancybox-title.fancybox-title-float-wrap,
-	div.fancybox-wrap,
-	#fancybox-lock  .fancybox-default-skin-open,
-	#fancybox-lock  .fancybox-default-skin-open  img {
-		border: 0 none;
-		margin: 0 !important;
-		padding: 0;
-		padding: 0 !important;
-		width: 100% !important;
-		height;: auto;
-	}
- 
-  a.fancybox-nav {
-	
- 
-	}
-	
+div.fancybox-title.fancybox-title-float-wrap,
+div.fancybox-wrap,
+#fancybox-lock  .fancybox-default-skin-open,
+#fancybox-lock  .fancybox-default-skin-open  img {
+	border: 0 none;
+	margin: 0 !important;
+	padding: 0;
+	padding: 0 !important;
+	width: 100% !important;
+	height;: auto;
+}
 
-  a.fancybox-close {
+
+  a.fancybox-close ,
+  a.fancybox-nav {
 	
 	display: none;
 	}
-	#fancybox-lock .fancybox-next ,
-	#fancybox-lock .fancybox-prev {
-		opacity: 0;
-	}
-		
 	
-	#fancybox-lock .fancybox-next {
-		left: 50%;
-	 }
-		
-	#fancybox-lock .fancybox-prev {
-		left: 0%
-	}
-		
+
 	 
 }
 
@@ -424,7 +406,7 @@ a.fancybox-expand {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
-    .fancybox-light a.fancybox-close,
+    .fancybox-light a.fancybox-close,
     .fancybox-light a.fancybox-expand,
     .fancybox-light a.fancybox-nav span
     {
