@@ -1,4 +1,7 @@
-/* @override http://localhost:8080/Plone/++resource++ptg.fancybox/jquery.fancyboxb.css */
+/* @override 
+	http://www.alexanderstub.no/portfolio/tidligere-utstillinger/++resource++ptg.fancybox/jquery.fancyboxb.css
+	http://localhost:8080/Plone/++resource++ptg.fancybox/jquery.fancyboxb.css
+*/
 
 /*! fancyBox 3.0.0 Beta 1 fancyapps.com | fancyapps.com/fancybox/#license */
 #fancybox-loading,
@@ -27,6 +30,30 @@ a.fancybox-nav span,
     background-image: none;
     text-shadow: none;
     
+}
+
+
+@media (max-width: 800px) {
+	
+div.fancybox-default-skin-open {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    box-sizing: content-box;
+    padding: 0 !important;
+    border:  0px solid white;
+    margin:  0 !important;
+}
+
+	a.fancybox-close,
+	a.fancybox-nav span {
+	   
+	    display: none;
+	}
+	  
+	
+	.fancybox-desktop  a.fancybox-nav {
+	    opacity: 0.01; filter: alpha(opacity=01);
+	}
+
 }
 
 #fancybox-lock {
@@ -313,6 +340,7 @@ a.fancybox-expand {
     border:  14px solid white;
     margin:  -14px  !important;
 }
+
 
 .fancybox-default-overlay {
     background: #333;
