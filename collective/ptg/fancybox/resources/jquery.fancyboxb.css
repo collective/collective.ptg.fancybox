@@ -1,3 +1,5 @@
+/* @override http://www.alexanderstub.no/portfolio/tidligere-utstillinger/++resource++ptg.fancybox/jquery.fancyboxb.css */
+
 /* @override 
 	http://www.alexanderstub.no/portfolio/tidligere-utstillinger/++resource++ptg.fancybox/jquery.fancyboxb.css
 	http://localhost:8080/Plone/++resource++ptg.fancybox/jquery.fancyboxb.css
@@ -47,7 +49,13 @@ div.fancybox-default-skin-open {
 	   
 	    display: none;
 	}
-	  
+
+ .fancybox-default 	a.fancybox-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+   }
+   
 	
 	.fancybox-desktop  a.fancybox-nav {
 	    opacity: 0.01; filter: alpha(opacity=01);
