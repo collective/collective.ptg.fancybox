@@ -94,9 +94,9 @@
 		version: '3.0.0',
 
 		defaults: {
-			theme     : 'default',          // 'default', dark', 'light'
-			padding   : 15,					// space inside box, around content
-			margin    : [30, 55, 30, 55],	// space between viewport and the box
+			theme     : 'dark',          // 'default', dark', 'light'
+			padding   : 0,					// space inside box, around content
+			margin    : [0,0, 0, 0],	// space between viewport and the box
 			loop      : true,               // Continuous gallery item loop
 
 			arrows    : true,
@@ -137,19 +137,19 @@
 			leftRatio   : 0.5,
 
 			// Opening animation
-			openEffect  : 'elastic',		// 'elastic', 'fade', 'drop' or 'none'
+			openEffect  : 'fade',		// 'elastic', 'fade', 'drop' or 'none'
 			openSpeed   : 350,
-			openEasing  : 'easeOutQuad',
+			openEasing  : 'fade',
 
 			// Closing animation
-			closeEffect : 'elastic',		// 'elastic', 'fade', 'drop' or 'none'
+			closeEffect : 'fade',		// 'elastic', 'fade', 'drop' or 'none'
 			closeSpeed  : 350,
-			closeEasing : 'easeOutQuad',
+			closeEasing : 'fade',
 
 			// Animation for next gallery item
-			nextEffect : 'elastic',		// 'elastic', 'fade', 'drop' or 'none'
+			nextEffect : 'fade',		// 'elastic', 'fade', 'drop' or 'none'
 			nextSpeed  : 350,
-			nextEasing : 'easeOutQuad',
+			nextEasing : 'fade',
 
 			// Animation for previous gallery item
 			prevEffect : 'elastic',		// 'elastic', 'fade', 'drop' or 'none'
