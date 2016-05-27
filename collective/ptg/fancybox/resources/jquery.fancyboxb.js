@@ -96,7 +96,7 @@
 		defaults: {
 			theme     : 'default',          // 'default', dark', 'light'
 			padding   : 0,					// space inside box, around content
-			margin    : [25, 25, 60, 20],	// space between viewport and the box
+			margin    : [35, 25, 90, 25],	// space between viewport and the box
 			loop      : true,               // Continuous gallery item loop
 
 			arrows    : true,
