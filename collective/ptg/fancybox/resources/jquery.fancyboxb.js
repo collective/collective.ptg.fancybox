@@ -96,7 +96,7 @@
 		defaults: {
 			theme     : 'default',          // 'default', dark', 'light'
 			padding   : 0,					// space inside box, around content
-			margin    : [20, 20, 50, 20],	// space between viewport and the box
+			margin    : [25, 25, 60, 20],	// space between viewport and the box
 			loop      : true,               // Continuous gallery item loop
 
 			arrows    : true,
@@ -122,8 +122,8 @@
 			height      : 450,
 			minWidth    : 100,
 			minHeight   : 100,
-			maxWidth    : 99999,
-			maxHeight   : 99999,
+			maxWidth    : 2000,
+			maxHeight   : 2000,
 			aspectRatio : false,
 			fitToView   : true,
 
