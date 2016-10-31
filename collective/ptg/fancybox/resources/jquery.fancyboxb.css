@@ -1,12 +1,3 @@
-/* @override http://www.alexanderstub.no/portfolio/tidligere-utstillinger/tidlig-grafikk/++resource++ptg.fancybox/jquery.fancyboxb.css */
-
-/* @override http://www.alexanderstub.no/portfolio/tidligere-utstillinger/++resource++ptg.fancybox/jquery.fancyboxb.css */
-
-/* @override 
-	http://www.alexanderstub.no/portfolio/tidligere-utstillinger/++resource++ptg.fancybox/jquery.fancyboxb.css
-	http://localhost:8080/Plone/++resource++ptg.fancybox/jquery.fancyboxb.css
-*/
-
 /*! fancyBox 3.0.0 Beta 1 fancyapps.com | fancyapps.com/fancybox/#license */
 #fancybox-loading,
 #fancybox-lock,
@@ -36,32 +27,35 @@ a.fancybox-nav span,
     
 }
 
-
-@media (max-width: 800px) {
-
-
-div.fancybox-default-skin-open {
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-    box-sizing: content-box;
+@media (max-width: 768px) {
+div.fancybox-title.fancybox-title-float-wrap,
+div.fancybox-wrap,
+#fancybox-lock  .fancybox-default-skin-open,
+#fancybox-lock  .fancybox-default-skin-open  img {
+	border: 0 none;
+	margin: 0 !important;
+	padding: 0;
+	padding: 0 !important;
+	width: 100% !important;
+	height: auto;
 }
- 
-	a.fancybox-nav span {
-	   
-	    display: none;
-	}
 
- .fancybox-default 	a.fancybox-close {
-    position: absolute;
-    top: 0;
-    right: 0;
-   }
-   
+
+  a.fancybox-close{
+	display: none;
+	}
 	
-	.fancybox-desktop  a.fancybox-nav {
-	    opacity: 0.01; filter: alpha(opacity=01);
-	}
 
+body  a.fancybox-nav  {
+	top:  0;
+	left:  0;
+	position: static;
+	}
+	
+
+	 
 }
+
 
 #fancybox-lock {
     position: fixed;
@@ -348,7 +342,6 @@ a.fancybox-expand {
     margin:  -14px  !important;
 }
 
-
 .fancybox-default-overlay {
     background: #333;
     opacity: 0.8; filter: alpha(opacity=80);
@@ -412,7 +405,7 @@ a.fancybox-expand {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
-    .fancybox-light a.fancybox-close,
+    .fancybox-light a.fancybox-close,
     .fancybox-light a.fancybox-expand,
     .fancybox-light a.fancybox-nav span
     {
