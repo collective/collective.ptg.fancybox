@@ -1,3 +1,5 @@
+/* @override http://www.alexanderstub.no/portfolio/nyere-bilder/++resource++ptg.fancybox/jquery.fancyboxb.css */
+
 /*! fancyBox 3.0.0 Beta 1 fancyapps.com | fancyapps.com/fancybox/#license */
 #fancybox-loading,
 #fancybox-lock,
@@ -27,6 +29,8 @@ a.fancybox-nav span,
     
 }
 
+
+
 @media (max-width: 768px) {
 div.fancybox-title.fancybox-title-float-wrap,
 div.fancybox-wrap,
@@ -38,6 +42,10 @@ div.fancybox-wrap,
 	padding: 0 !important;
 	width: auto !important;
 	height: auto !important;
+}
+
+img.fancybox-image {
+	max-height: 90vh;
 }
 
 
