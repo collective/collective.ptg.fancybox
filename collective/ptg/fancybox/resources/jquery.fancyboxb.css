@@ -42,10 +42,16 @@ div.fancybox-wrap,
 	padding: 0 !important;
 	width: auto !important;
 	height: auto !important;
+	background: black;
 }
 
+.fancybox-default-skin-open {
+	text-align: center;
+}
+.fancybox-default-skin-open  img,
 img.fancybox-image {
 	max-height: 90vh;
+
 }
 
 
