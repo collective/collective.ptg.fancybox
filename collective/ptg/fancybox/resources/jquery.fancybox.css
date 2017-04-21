@@ -1,3 +1,5 @@
+/* @override http://www.alexanderstub.no/portfolio/++resource++ptg.fancybox/jquery.fancyboxb.css */
+
 /*! fancyBox 3.0.0 Beta 1 fancyapps.com | fancyapps.com/fancybox/#license */
 #fancybox-loading,
 #fancybox-lock,
@@ -36,10 +38,11 @@ div.fancybox-wrap,
 	margin: 0 !important;
 	padding: 0;
 	padding: 0 !important;
-	width: 100% !important;
+	width: auto !important;
 	height: auto !important;
 }
 
+ 
 
   a.fancybox-close{
 	display: none;
@@ -118,7 +121,7 @@ body  a.fancybox-nav  {
 }
 
 
- 
+
 
 .fancybox-spacer {
     position: absolute;
@@ -132,12 +135,10 @@ body  a.fancybox-nav  {
  
 }
 
-
-
 .fancybox-image {
     zoom: 1;
     max-width: 100%;
- 
+    max-height:  100%;
 }
 
 a.fancybox-close {
