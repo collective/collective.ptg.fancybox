@@ -1,5 +1,4 @@
 
-
 /*! fancyBox 3.0.0 Beta 1 fancyapps.com | fancyapps.com/fancybox/#license */
 #fancybox-loading,
 #fancybox-lock,
@@ -47,6 +46,7 @@ div.fancybox-wrap,
  
 #fancybox-lock  .fancybox-default-skin-open  img {
 	height: auto !important;
+	max-height: 70vh;
 	background: black;
 }
 
