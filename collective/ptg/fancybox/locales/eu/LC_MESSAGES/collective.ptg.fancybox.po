@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.plonetruegallery\n"
-"POT-Creation-Date: 2012-07-10 12:57+0000\n"
+"POT-Creation-Date: 2018-08-18 12:22+0000\n"
 "PO-Revision-Date: 2012-06-19 09:36+0100\n"
 "Last-Translator: Mikel Larreategi <mlarreategi@codesyntax.com>\n"
 "Language-Team: eu <eu@li.org>\n"
@@ -15,13 +15,12 @@ msgstr ""
 "Domain: DOMAIN\n"
 "X-Poedit-Language: Basque\n"
 
-#. Default: "Gallery View"
-#: ./browser/views/configure.zcml
-msgid "Gallery View"
-msgstr "Galeria bista"
+#. Default: "Use version 3 beta instead of version 2 stable"
+#: ./__init__.py:16
+msgid "label_beta"
+msgstr ""
 
 #. Default: "Fancy Box"
-#: ./__init__.py:18
+#: ./__init__.py:24
 msgid "label_fancybox_display_type"
 msgstr "Fancy Box"
-

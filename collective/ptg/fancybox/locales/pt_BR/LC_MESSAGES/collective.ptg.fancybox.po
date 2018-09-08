@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.plonetruegallery\n"
-"POT-Creation-Date: 2012-07-10 12:57+0000\n"
+"POT-Creation-Date: 2018-08-18 12:22+0000\n"
 "PO-Revision-Date: 2011-07-01 11:53-0300\n"
 "Last-Translator: Rafahela Bazzanella <rafahela@gmail.com>\n"
 "Language-Team: TcheZope.org <tchezope@yahoogroups.com>\n"
@@ -17,13 +17,12 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.plonetruegallery\n"
 
-#. Default: "Gallery View"
-#: ./browser/views/configure.zcml
-msgid "Gallery View"
-msgstr "Visão de Galeria"
+#. Default: "Use version 3 beta instead of version 2 stable"
+#: ./__init__.py:16
+msgid "label_beta"
+msgstr ""
 
 #. Default: "Fancy Box"
-#: ./__init__.py:18
+#: ./__init__.py:24
 msgid "label_fancybox_display_type"
 msgstr "Fancy Box"
-
